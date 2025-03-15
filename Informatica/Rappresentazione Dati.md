@@ -126,6 +126,7 @@ $$
 [101001]_2 = [-23]_{10} \\
 \end{gather}
 $$
+Quando si sommano i numeri con complemento a due dobbiamo sapere il numero di bit in cui eseguiamo il calcolo, dopo aver sommato probabilmente avremo un numero che eccede dai bit che abbiamo considerato, per un riporto durante il calcolo, quel valore dobbiamo scartarlo e non valutarlo nel risultato.
 ## Numeri con la Virgola mobile
 Per rappresentare i numeri con la virgola l'idea è di rappresentare i numeri nella seguente forma:
 $$
