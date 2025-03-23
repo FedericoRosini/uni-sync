@@ -16,3 +16,5 @@ Se $f$ è differenziabile, questo implica che $f$ è:
 - [[Funzioni Continue|continua]]
 
 Se una funzione $f$ è differenziabile, si dice **differenziale** di $f$ in $(x_0, y_0)$.
+
+La composizione di due funzioni composte differenziabili è ancora differenziabile

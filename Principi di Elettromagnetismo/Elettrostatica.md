@@ -373,14 +373,61 @@ Q = \int dq = \int_V \rho dV \\
 \end{gather}
 $$
 Quest'ultimo risultato è la **Prima legge di Maxwell**.
+## Simmetria
+Per sfruttare a pieno la prima legge di Maxwell dobbiamo sfruttare la simmetria del sistema
 
+Analizziamo il caso di una sfera vuota caricata superficialmente con una carica $Q$:
+![[Pasted image 20250319142647.png|200]]
+Possiamo avere due casi:
+- $p_0$ è interno alla sfera;
+- $p_0$ è esterno alla sfera.
 
+Studiamo inizialmente il caso in cui $p_0$ sia interno alla sfera:
+![[Pasted image 20250319142857.png|300]]
+La simmetria del sistema ci dice che il campo elettrico di $p_0$ e $p_1$ sarà uguale, perciò il campo elettrico totale sarà radiale ai due punti.
 
+Ricordando la prima legge di maxwell posso scegliere una superficie chiusa, in questo caso scelgo una sfera che intersechi nella superficie $p_0$ e $p_1$ così da sfruttare la geometria per avere campi uguali in modulo:
+![[Pasted image 20250319143306.png|300]]
+Scrivendo la prima legge di Maxwell otterrò quindi:
+$$
+\begin{gather}
+\oint_S \vec{E} \hat{n} dS = E \oint_S dS = \Phi \\
+\Phi = E \cdot 4 \pi R^{2} = 0
+\end{gather}
+$$
+Questo risultato ci torna concettualmente perché non ci sono cariche all'interno della sfera che abbiamo scelto.
 
-
-
-
-
-
-
+Studiamo adesso il caso in cui i punti si trovino all'esterno della sfera:
+![[Pasted image 20250319143927.png|300]]
+Sviluppando i calcoli come nel caso precedente arriveremo:
+$$
+E \oint_S dS = E 4\pi R^{2} = \frac{Q}{\epsilon_0}
+$$
+dove $Q$ rappresenta le cariche totali che si trovano all'interno della sfera, che nel nostro caso rappresentano le cariche totali.
+Abbiamo quindi ricavato che:
+$$
+E = \frac{1}{4 \pi \epsilon_0}\frac{Q}{r^{2}}
+$$
+Quindi il campo scenderà come il quadrato della distanza.
+## Simmetria cilindrica
+Per calcolare il campo in un punto rispetto a un piano caricato con una carica $Q$:
+![[Pasted image 20250319145107.png|300]]
+La simmetria del sistema mi dice che il campo di $p_{0}$ sarà uguale al campo di $p_1$ in modulo.
+Come superficie chiusa scelgo un cilindro con gli estremi coincidenti con i punti in $p_0$ e $p_1$:
+![[Pasted image 20250319145405.png|300]]
+Posso usare quindi la prima legge di Maxwell:
+$$
+\begin{gather}
+\Phi = \oint_S \vec{E} \hat{n} dS = \frac{1}{\epsilon_0}Q^{\int} \\
+\Phi = \oint_{S_{1}} \vec{E} \hat{n} dS + \oint_{S_{2}} \vec{E} \hat{n} dS + \oint_{S_lat} \vec{E} \hat{n} dS \\
+\Phi = 2ES = \frac{Q}{\epsilon_{0}}
+\end{gather}
+$$
+Ci interessano le cariche del piano proiettate sulla superficie della base del cilindro.
+$$
+2ES = \frac{\sigma 2S}{\epsilon_{0}} = \frac{\sigma}{\epsilon_{0}}
+$$
+## Ingabbiare due cariche opposte
+![[Pasted image 20250319150141.png|300]]
+Sfruttando la simmetria del sistema possiamo dimostrare che con due piani che ospitano cariche opposte riesco a **ingabbiare il campo elettrico**.
 

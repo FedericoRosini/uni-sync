@@ -9,7 +9,7 @@ $$
 \frac{\partial f}{\partial y} = \lim_{ k \to 0 } \frac{f(x_0,y_0+k)- f(x_0,y_0)}{k} \\
 \end{gather}
 $$
-Il vettore che ha come coordinate le derivate parziali è detto **gradiente** $\nabla$ 
+Il vettore che ha come coordinate le derivate parziali è detto [[Gradiente|gradiente]]$\nabla$ 
 $$
 \nabla = (\partial x , \partial y)
 $$

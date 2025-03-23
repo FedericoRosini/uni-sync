@@ -29,7 +29,7 @@ $$U=-\frac{kx^2}{2}$$
 
 Possiamo ora aggiungere un osservazione alla definizione delle forze conservative \label{definizione forze conservative}:
 
-$\vec{F}$ è una forza conservativa $\iff \exists$ una funzione $U(\vec{r})$ t.c. $\vec{F}=-\nabla U(\vec{r})$, dove $\nabla$ rappresenta il **gradiente**, il gradiente per definizione "mangia" uno scalare e restituisce un vettore:
+$\vec{F}$ è una forza conservativa $\iff \exists$ una funzione $U(\vec{r})$ t.c. $\vec{F}=-\nabla U(\vec{r})$, dove $\nabla$ rappresenta il [[Gradiente|gradiente]], il gradiente per definizione "mangia" uno scalare e restituisce un vettore:
 
 $$\nabla U(\vec{r})=\Big( \frac{\partial U}{\partial x}, \frac{\partial U}{\partial y}, \frac{\partial U}{\partial z} \Big)$$
 

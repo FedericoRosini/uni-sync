@@ -10,6 +10,8 @@ $$
 e^z \geq 1 + z \\
 \log z \leq z -1  \\
 |\sin t| \leq|t| \\
+1 - \cos t \leq \frac{t^{2}}{2} \\
+\arcsin(t) \leq t \\
 \text{con $a,b > 0$ } ab \leq \frac{1}{2}(a^{2} + b^{2}) \\
 ab \leq \frac{a^p}{p} + \frac{b^q}{q} \text{  con $p,q > 1$ e $\frac{1}{p} + \frac{1}{q} = 1$}\\
 \frac{a ^{2}}{a^{2} + b^{2}} \leq 1
