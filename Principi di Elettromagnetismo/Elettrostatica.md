@@ -431,3 +431,5 @@ $$
 ![[Pasted image 20250319150141.png|300]]
 Sfruttando la simmetria del sistema possiamo dimostrare che con due piani che ospitano cariche opposte riesco a **ingabbiare il campo elettrico**.
 
+## Distribuzione delle cariche nel volume
+Si nota, e lo approfondiremo meglio pi a a 
